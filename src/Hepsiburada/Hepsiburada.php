@@ -2,6 +2,6 @@
 	namespace Vahdetyvz\PazaryeriEntegrasyon\Hepsiburada;
 	class Hepsiburada {
 		public function __construct() {
-			return "qwdwq";
+			echo "qwdwq";
 		}
 	}
