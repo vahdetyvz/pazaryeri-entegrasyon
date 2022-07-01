@@ -16,19 +16,12 @@
     ],
     "minimum-stability": "master",
 	"repositories": [
-	{
-		"type": "package",
-		"package": {
-			"name": "vahdetyvz/pazaryeri-entegrasyon",
-			"version": "master",
-			"source": {
-				"url": "https://github.com/vahdetyvz/pazaryeri-entegrasyon.git",
-				"type": "git",
-				"reference": "master"
-			}
+		{
+			"type": "vcs",
+			"url": "https://github.com/vahdetyvz/pazaryeri-entegrasyon"
 		}
-	}],
+	],
 	"require": {
-		"vahdetyvz/pazaryeri-entegrasyon": "master",
-	 }
+		"latheesan-k/laravel-xero": "dev-master"
+	},
 }
