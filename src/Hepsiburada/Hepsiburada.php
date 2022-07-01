@@ -7,8 +7,9 @@
 		public $password;
 		public $test = true;
 		public $hepsiburada;
-		public $curl = new Curl();
+		public $curl;
 		public function __construct($_username,$_password,$_test = true) {
+			$this->curl = new Curl();
 			if($_test) {
 				$this->url = 'https://mpop-sit.hepsiburada.com';
 			}else {
