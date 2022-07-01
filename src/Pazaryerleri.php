@@ -1,5 +1,5 @@
 <?php
-	namespace Vahdetyvz\PazaryeroEntegrasyon;
+	namespace Vahdetyvz\PazaryeriEntegrasyon;
 	class Pazaryerleri {
 		public function __autoload($class) {
 			spl_autoload_register(function($class){
