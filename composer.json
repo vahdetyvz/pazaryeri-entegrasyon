@@ -1,0 +1,14 @@
+{
+    "name": "vahdetyvz/pazaryeri-entegrasyon",
+    "autoload": {
+        "psr-4": {
+            "Vahdetyvz\\PazaryeriEntegrasyon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vahdet Yavuz"
+        }
+    ],
+    "require": {}
+}
