@@ -17,7 +17,7 @@
     "minimum-stability": "master",
 	"repositories": [
 		{
-			"type": "vcs",
+			"type": "git",
 			"url": "https://github.com/vahdetyvz/pazaryeri-entegrasyon"
 		}
 	],
