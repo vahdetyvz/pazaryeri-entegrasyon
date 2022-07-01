@@ -1,5 +1,8 @@
 {
     "name": "vahdetyvz/pazaryeri-entegrasyon",
+	"description": "Hepsiburada PHP API",
+    "type": "library",
+    "keywords": ["hepsiburada", "eticaret", "php api", "hepsiburada php api", "pazaryeri"],
     "autoload": {
         "psr-4": {
             "Vahdetyvz\\PazaryeriEntegrasyon\\": "src/"
@@ -10,5 +13,6 @@
             "name": "Vahdet Yavuz"
         }
     ],
-    "require": {}
+    "require": {},
+	"minimum-stability": "stable"
 }
