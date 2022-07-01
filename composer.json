@@ -18,7 +18,7 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "git@github.com:vahdetyvz/pazaryeri-entegrasyon.git"
+			"url": "ssh://git@github.com:vahdetyvz/pazaryeri-entegrasyon.git"
 		}
 	],
 	"require": {
