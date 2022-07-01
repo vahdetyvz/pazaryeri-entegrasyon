@@ -14,22 +14,21 @@
             "email": "vahdetyvz@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-	"prefer-stable": true,
+    "minimum-stability": "master",
 	"repositories": [
 	{
 		"type": "package",
 		"package": {
 			"name": "vahdetyvz/pazaryeri-entegrasyon",
-			"version": "main",
+			"version": "master",
 			"source": {
 				"url": "https://github.com/vahdetyvz/pazaryeri-entegrasyon.git",
 				"type": "git",
-				"reference": "main"
+				"reference": "master"
 			}
 		}
 	}],
 	"require": {
-		"vahdetyvz/pazaryeri-entegrasyon": "main",
+		"vahdetyvz/pazaryeri-entegrasyon": "master",
 	 }
 }
