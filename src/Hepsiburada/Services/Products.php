@@ -1,5 +1,6 @@
 <?php 
-	namespace Vahdetyvz\PazaryeriEntegrasyon\Hepsiburada\Products;
+	namespace Vahdetyvz\PazaryeriEntegrasyon\Hepsiburada;
+	use Vahdetyvz\PazaryeriEntegrasyon\Hepsiburada;
 	class Products extends Hepsiburada {
 		public $suburl = '/product/api/';
 		public function __construct() {
