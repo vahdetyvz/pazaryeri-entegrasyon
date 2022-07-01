@@ -20,16 +20,16 @@
 	{
 		"type": "package",
 		"package": {
-			"name": "pazaryeri-entegrasyon",
-			"version": "1.0",
+			"name": "vahdetyvz/pazaryeri-entegrasyon",
+			"version": "main",
 			"source": {
 				"url": "https://github.com/vahdetyvz/pazaryeri-entegrasyon.git",
 				"type": "git",
-				"reference": "master"
+				"reference": "main"
 			}
 		}
 	}],
 	"require": {
-		"pazaryeri-entegrasyon": "1.0",
+		"vahdetyvz/pazaryeri-entegrasyon": "main",
 	 }
 }
