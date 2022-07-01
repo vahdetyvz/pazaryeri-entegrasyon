@@ -1,8 +1,8 @@
 {
     "name": "vahdetyvz/pazaryeri-entegrasyon",
-	"description": "Hepsiburada PHP API",
+    "description": "Hepsiburada API",
     "type": "library",
-    "keywords": ["hepsiburada", "eticaret", "php api", "hepsiburada php api", "pazaryeri"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Vahdetyvz\\PazaryeriEntegrasyon\\": "src/"
@@ -10,9 +10,10 @@
     },
     "authors": [
         {
-            "name": "Vahdet Yavuz"
+            "name": "Vahdet Yavuz",
+            "email": "vahdetyvz@gmail.com"
         }
     ],
-    "require": {},
-	"minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "require": {}
 }
