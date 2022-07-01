@@ -22,6 +22,6 @@
 		}
 	],
 	"require": {
-		"latheesan-k/laravel-xero": "dev-master"
+		"vahdetyvz/pazaryeri-entegrasyon": "dev-master"
 	},
 }
