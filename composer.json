@@ -18,5 +18,11 @@
 	"prefer-stable": true,
 	"require": {
 		"vahdetyvz/pazaryeri-entegrasyon": "dev-master",
-	 }
+	 },
+	 "repositories": [
+		{
+			"url": "https://github.com/vahdetyvz/pazaryeri-entegrasyon.git",
+			"type": "git"
+		}
+	]
 }
