@@ -1,10 +1,10 @@
 <?php
-	namespace Vahdetyvz/PazaryeroEntegrasyon;
+	namespace Vahdetyvz\PazaryeroEntegrasyon;
 	class Pazaryerleri {
 		public function __autoload($class) {
 			spl_autoload_register(function($class){
 				$prefix = 'TicaretPlus\\';
-				$base_dir = __DIR__ . '/src/libraries/';
+				$base_dir = __DIR__ . '/src/';
 				$len = strlen($prefix);
 				if (strncmp($prefix, $class, $len) !== 0){
 					return;
@@ -18,6 +18,6 @@
 		}
 		
 		public function __construct() {
-			$trendyol = new Trendyol/Trendyol();
+			
 		}
 	}
