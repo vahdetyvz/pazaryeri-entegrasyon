@@ -14,6 +14,9 @@
             "email": "vahdetyvz@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"vahdetyvz/pazaryeri-entegrasyon": "dev-master",
+	 }
 }
