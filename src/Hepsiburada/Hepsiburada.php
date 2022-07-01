@@ -1,15 +1,13 @@
 <?php
 	namespace Vahdetyvz\PazaryeriEntegrasyon\Hepsiburada;
 	use Vahdetyvz\PazaryeriEntegrasyon\Helpers\Curl;
-	class Hepsiburada {
+	class Hepsiburada extends Curl {
 		public $url;
 		public $username;
 		public $password;
 		public $test = true;
 		public $hepsiburada;
-		public $curl;
 		public function __construct($_username,$_password,$_test = true) {
-			$this->curl = new Curl();
 			if($_test) {
 				$this->url = 'https://mpop-sit.hepsiburada.com';
 			}else {
